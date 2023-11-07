@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.Css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <title>I-Deia Sublimatico</title>
+</head>
+<body>
+    <div class="rodape-inicial">
+        <img class="logo-incial" src="./src/img/I-deia.jpg" alt="">
+        <h1 class="titulo-inicial">Venha  adquirir a sua melhor caneca</h1>
+        <img src="./src/img/I-deia.jpg" alt="" class="rodape-imagem">
+    </div>
+<div class="corpo-inicial"></div>
+<h1 class="titulo-corpo">As melhores canecas,<br> por preços acessíveis</h1>
+<h2 class="text-corpo">Aqui temos qualidade e competecia,<br> nosso cliente monta sua arte do jeito que preferir</h2>
+<div onclick="acao()" class="entre-em-contato">Entre em contato</div>
+<div class="modal">
+    <form action="https://formsubmit.co/andreia.s.ueda@gmail.com" method="post" >
+        <p>
+        <label for="name">Nome</label>
+        <input type="text" class="iname" name="Nome" required>
+        </p>
+        <p>
+        <label for="iemail">E-mail</label>
+        <input class="iemail" type="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="Numero">Telefone</label>
+            <input  class="itelefone" type="text" type="tel" type="tel" name="numero" autocomplete="tel" pattern="^[0-9]{5}-[0-9]{4}$" required>
+
+        </p>
+        <p>
+            <input class="enviar" type="submit" value="Enviar">
+            <input class="limpar" type="reset" name="Limpar" id="">
+        </p>
+            
+            
+        </p>
+    </form>
+    <div onclick="fechar()" class="fechar"><img src="./src/img/I-deia-fechar.jpg" alt=""></div></div>
+
+<script src="./src/js/script.js"></script>
+</body>
+</html>

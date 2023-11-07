@@ -1,0 +1,110 @@
+.rodape-inicial{
+    width: 1920px;
+   height: 100px;
+   
+}
+.logo-inicial{
+    margin-left: 50px;
+}
+.titulo-inicial{
+    margin-left: 365px;
+    margin-top: -100px;
+    color: lightslategrey;
+    font-family: Open Sans
+}
+.rodape-imagem{
+    margin-left: 1000px;
+    margin-top: -148px;
+}
+.corpo-inicial{
+    width: 1920px;
+    height: 700px;
+    background: lightpink;
+    margin-top: 100px;
+
+}
+.titulo-corpo{
+    margin-left: 100px;
+     margin-top: -590px;
+     font-family: Open Sans;
+     color: lightslategray;
+}
+.text-corpo{
+    margin-left: 100px;
+    font-family: Open Sans;
+    color: lightslategray;
+    margin-top: 20px;
+}
+
+
+.entre-em-contato{
+    padding: 10px;
+    background: pink;
+    display: inline-block;
+    color: lightslategray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    margin-top: 250px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.entre-em-contato:hover{
+    background: white;
+}
+.modal{
+    width: 500px;
+    height: 500px;
+    background: palevioletred;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    margin-top: 250px;
+    border-radius: 30px;
+    display: none;
+    animation: animate;
+    animation-duration: 800ms;
+}
+@keyframes animate{
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+.fechar{
+    width: 50px;
+    height: 50px;
+    margin-left: 420px;
+    margin-top: -150px;
+    border-radius: 50%;
+    color: pink;
+
+
+}
+.fechar:hover{
+    background: pink;
+}
+.iemail{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px  ;
+}
+.enviar{
+margin-left: 65px;
+border-radius: 5px;
+margin-top: 10px;
+}
+.limpar{
+    border-radius: 5px;
+}
+.iname{
+    margin-left: 25px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.itelefone{
+    margin-left: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
